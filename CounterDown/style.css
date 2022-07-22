@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url(./alessio-soggetti-xTQtznnfgqA-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+h1 {
+  text-align: center;
+  font-weight: normal;
+  margin-top: 4rem;
+  color: rgb(243, 12, 101);
+  font-size: 100px;
+}
+
+.counter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  /* padding-left: 2rem; */
+  /* padding-right: 2rem; */
+}
+.countdown {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.big-text {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-bottom: -2px;
+  text-align: center;
+  line-height: 1;
+}
+div {
+  text-align: center;
+}
